@@ -4,25 +4,56 @@
 
 #include "led.h"
 
+void ToggleRedLed() {
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
+}
+
+void ToggleGreenLed() {
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+}
+
+void ToggleBlueLed() {
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_5);
+}
+
 void ToggleLed(enum LED_COLOR color) {
 
     switch (color) {
         case RED:
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
+            ToggleRedLed();
             break;
         case BLUE:
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_5);
+            ToggleBlueLed();
             break;
         case GREEN:
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+            ToggleGreenLed();
+            break;
         case ALL:
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_5);
-            HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+            ToggleRedLed();
+            ToggleBlueLed();
+            ToggleGreenLed();
+            break;
         default:
             break;
 
     }
+}
+
+void LedTest() {
+
+    ToggleRedLed();
+    HAL_Delay(100);
+    ToggleGreenLed();
+    HAL_Delay(100);
+    ToggleBlueLed();
+    HAL_Delay(100);
+
+    ToggleBlueLed();
+    HAL_Delay(100);
+    ToggleGreenLed();
+    HAL_Delay(100);
+    ToggleRedLed();
+    HAL_Delay(100);
 
 }
 

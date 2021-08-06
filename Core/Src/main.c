@@ -18,6 +18,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <led.h>
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -92,15 +93,9 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_USB_PCD_Init();
-  /* USER CODE BEGIN 2 */
 
-  /* USER CODE END 2 */
-
+  LedTest();
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-
-    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
-
     while (1) {
     /* USER CODE END WHILE */
 
