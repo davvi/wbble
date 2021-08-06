@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/wbble.elf.dir/Core/Src/led.c.obj"
   "CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
   "CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj"

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/deese/Documents/wbble/cmake-build-debug"/>
+				<Option working_dir="/Users/deese/Documents/wbble"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/deese/Documents/wbble/cmake-build-debug"/>
+				<Option working_dir="/Users/deese/Documents/wbble"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/deese/Documents/wbble/cmake-build-debug"/>
+				<Option working_dir="/Users/deese/Documents/wbble"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wbble.elf">
-				<Option output="/Users/deese/Documents/wbble/cmake-build-debug/wbble.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/deese/Documents/wbble/cmake-build-debug"/>
+				<Option output="/Users/deese/Documents/wbble/wbble.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/deese/Documents/wbble"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,23 +52,17 @@
 					<Add directory="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="/Users/deese/Documents/wbble/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
 					<Add directory="/Users/deese/Documents/wbble/Drivers/CMSIS/Include"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 wbble.elf"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 wbble.elf"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wbble.elf/fast">
-				<Option output="/Users/deese/Documents/wbble/cmake-build-debug/wbble.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/deese/Documents/wbble/cmake-build-debug"/>
+				<Option output="/Users/deese/Documents/wbble/wbble.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/deese/Documents/wbble"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -81,18 +75,12 @@
 					<Add directory="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="/Users/deese/Documents/wbble/Drivers/CMSIS/Device/ST/STM32WBxx/Include"/>
 					<Add directory="/Users/deese/Documents/wbble/Drivers/CMSIS/Include"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
-					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 wbble.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/deese/Documents/wbble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 wbble.elf/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/deese/Documents/wbble/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
