@@ -106,7 +106,7 @@ int main(void) {
 
         /* USER CODE BEGIN 3 */
 
-        ToggleLed(RED);
+        ToggleLed(BLUE);
 
 //        uart_log(LT_ERROR);
 
