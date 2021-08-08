@@ -79,9 +79,22 @@ CMakeFiles/wbble.elf.dir/Core/Src/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Core/Src/led.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Core/Src/led.c -o CMakeFiles/wbble.elf.dir/Core/Src/led.c.s
 
+CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj: CMakeFiles/wbble.elf.dir/flags.make
+CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj: ../Core/Src/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj -c /Users/deese/Documents/wbble/Core/Src/log.c
+
+CMakeFiles/wbble.elf.dir/Core/Src/log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wbble.elf.dir/Core/Src/log.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deese/Documents/wbble/Core/Src/log.c > CMakeFiles/wbble.elf.dir/Core/Src/log.c.i
+
+CMakeFiles/wbble.elf.dir/Core/Src/log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Core/Src/log.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Core/Src/log.c -o CMakeFiles/wbble.elf.dir/Core/Src/log.c.s
+
 CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj -c /Users/deese/Documents/wbble/Core/Src/main.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/main.c.i: cmake_force
@@ -94,7 +107,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj: ../Core/Src/stm32wbxx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj -c /Users/deese/Documents/wbble/Core/Src/stm32wbxx_hal_msp.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.i: cmake_force
@@ -107,7 +120,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj: ../Core/Src/stm32wbxx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj -c /Users/deese/Documents/wbble/Core/Src/stm32wbxx_it.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.i: cmake_force
@@ -120,7 +133,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.obj -c /Users/deese/Documents/wbble/Core/Src/syscalls.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -133,7 +146,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.obj -c /Users/deese/Documents/wbble/Core/Src/sysmem.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -146,7 +159,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.obj: ../Core/Src/system_stm32wbxx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.obj -c /Users/deese/Documents/wbble/Core/Src/system_stm32wbxx.c
 
 CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.i: cmake_force
@@ -159,7 +172,7 @@ CMakeFiles/wbble.elf.dir/Core/Src/system_stm32wbxx.c.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj: ../Core/Startup/startup_stm32wb55rgvx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.obj -c /Users/deese/Documents/wbble/Core/Startup/startup_stm32wb55rgvx.s
 
 CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.i: cmake_force
@@ -172,7 +185,7 @@ CMakeFiles/wbble.elf.dir/Core/Startup/startup_stm32wb55rgvx.s.s: cmake_force
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.i: cmake_force
@@ -185,7 +198,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c.s: cma
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c.i: cmake_force
@@ -198,7 +211,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.i: cmake_force
@@ -211,7 +224,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c.s:
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c.i: cmake_force
@@ -224,7 +237,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.i: cmake_force
@@ -237,7 +250,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c.s
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.i: cmake_force
@@ -250,7 +263,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c.
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.i: cmake_force
@@ -263,7 +276,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.i: cmake_force
@@ -276,7 +289,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.s
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.i: cmake_force
@@ -287,35 +300,9 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s
 
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj: CMakeFiles/wbble.elf.dir/flags.make
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c > CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c > CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s
-
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.i: cmake_force
@@ -328,7 +315,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.s:
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.i: cmake_force
@@ -341,7 +328,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.i: cmake_force
@@ -354,7 +341,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.s:
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c.i: cmake_force
@@ -367,7 +354,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.i: cmake_force
@@ -380,7 +367,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.s:
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.i: cmake_force
@@ -393,7 +380,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.i: cmake_force
@@ -406,7 +393,7 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.s
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj: CMakeFiles/wbble.elf.dir/flags.make
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c
 
 CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.i: cmake_force
@@ -417,22 +404,10 @@ CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s
 
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj: CMakeFiles/wbble.elf.dir/flags.make
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj: ../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj -c /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c > CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i
-
-CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c -o CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s
-
 # Object files for target wbble.elf
 wbble_elf_OBJECTS = \
 "CMakeFiles/wbble.elf.dir/Core/Src/led.c.obj" \
+"CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj" \
 "CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj" \
 "CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj" \
@@ -449,8 +424,6 @@ wbble_elf_OBJECTS = \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj" \
-"CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj" \
-"CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj" \
@@ -458,13 +431,13 @@ wbble_elf_OBJECTS = \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj" \
 "CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj" \
-"CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj" \
-"CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
+"CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj"
 
 # External object files for target wbble.elf
 wbble_elf_EXTERNAL_OBJECTS =
 
 wbble.elf: CMakeFiles/wbble.elf.dir/Core/Src/led.c.obj
+wbble.elf: CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj
@@ -481,8 +454,6 @@ wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_h
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj
-wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj
-wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj
@@ -491,10 +462,9 @@ wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_h
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj
-wbble.elf: CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
 wbble.elf: CMakeFiles/wbble.elf.dir/build.make
 wbble.elf: CMakeFiles/wbble.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable wbble.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable wbble.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wbble.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/deese/Documents/wbble/cmake-build-debug/wbble.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/deese/Documents/wbble/cmake-build-debug/wbble.bin"

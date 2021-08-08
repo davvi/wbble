@@ -4,7 +4,7 @@ enum LED_COLOR{RED, GREEN, BLUE, ALL};
 
 void ToggleRedLed();
 
-void ToggleGreenLed() ;
+void ToggleGreenLed();
 
 void ToggleBlueLed();
 

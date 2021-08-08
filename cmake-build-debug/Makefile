@@ -153,6 +153,30 @@ Core/Src/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Core/Src/led.c.s
 .PHONY : Core/Src/led.c.s
 
+Core/Src/log.obj: Core/Src/log.c.obj
+.PHONY : Core/Src/log.obj
+
+# target to build an object file
+Core/Src/log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj
+.PHONY : Core/Src/log.c.obj
+
+Core/Src/log.i: Core/Src/log.c.i
+.PHONY : Core/Src/log.i
+
+# target to preprocess a source file
+Core/Src/log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Core/Src/log.c.i
+.PHONY : Core/Src/log.c.i
+
+Core/Src/log.s: Core/Src/log.c.s
+.PHONY : Core/Src/log.s
+
+# target to generate assembly for a file
+Core/Src/log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Core/Src/log.c.s
+.PHONY : Core/Src/log.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -521,54 +545,6 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.s
 
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.obj
-
-# target to build an object file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.i: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.i
-
-# target to preprocess a source file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.i
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.s: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.s
-
-# target to generate assembly for a file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.s
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.obj
-
-# target to build an object file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.i: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.i
-
-# target to preprocess a source file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.i
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.s: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.s
-
-# target to generate assembly for a file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.s
-
 Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.obj
 
@@ -761,30 +737,6 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s
 
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.obj: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.obj
-
-# target to build an object file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.i: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.i
-
-# target to preprocess a source file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.i
-
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.s: Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.s
-
-# target to generate assembly for a file
-Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s
-.PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -797,6 +749,9 @@ help:
 	@echo "... Core/Src/led.obj"
 	@echo "... Core/Src/led.i"
 	@echo "... Core/Src/led.s"
+	@echo "... Core/Src/log.obj"
+	@echo "... Core/Src/log.i"
+	@echo "... Core/Src/log.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
@@ -843,12 +798,6 @@ help:
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.obj"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.i"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.s"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.obj"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.i"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.s"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.obj"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.i"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.s"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.obj"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.i"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.s"
@@ -873,9 +822,6 @@ help:
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.obj"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.i"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.s"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.obj"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.i"
-	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.s"
 .PHONY : help
 
 

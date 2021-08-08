@@ -99,6 +99,9 @@
 		<Unit filename="/Users/deese/Documents/wbble/Core/Inc/led.h">
 			<Option target="wbble.elf"/>
 		</Unit>
+		<Unit filename="/Users/deese/Documents/wbble/Core/Inc/log.h">
+			<Option target="wbble.elf"/>
+		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Core/Inc/main.h">
 			<Option target="wbble.elf"/>
 		</Unit>
@@ -109,6 +112,9 @@
 			<Option target="wbble.elf"/>
 		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Core/Src/led.c">
+			<Option target="wbble.elf"/>
+		</Unit>
+		<Unit filename="/Users/deese/Documents/wbble/Core/Src/log.c">
 			<Option target="wbble.elf"/>
 		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Core/Src/main.c">
@@ -249,12 +255,6 @@
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_hsem.h">
 			<Option target="wbble.elf"/>
 		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h">
-			<Option target="wbble.elf"/>
-		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h">
-			<Option target="wbble.elf"/>
-		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h">
 			<Option target="wbble.elf"/>
 		</Unit>
@@ -303,9 +303,6 @@
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h">
 			<Option target="wbble.elf"/>
 		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_usb.h">
-			<Option target="wbble.elf"/>
-		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c">
 			<Option target="wbble.elf"/>
 		</Unit>
@@ -333,12 +330,6 @@
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c">
 			<Option target="wbble.elf"/>
 		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c">
-			<Option target="wbble.elf"/>
-		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c">
-			<Option target="wbble.elf"/>
-		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c">
 			<Option target="wbble.elf"/>
 		</Unit>
@@ -361,9 +352,6 @@
 			<Option target="wbble.elf"/>
 		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c">
-			<Option target="wbble.elf"/>
-		</Unit>
-		<Unit filename="/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c">
 			<Option target="wbble.elf"/>
 		</Unit>
 		<Unit filename="/Users/deese/Documents/wbble/STM32WB55RGVX_FLASH.ld">

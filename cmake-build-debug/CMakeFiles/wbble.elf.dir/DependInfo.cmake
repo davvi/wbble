@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/deese/Documents/wbble/Core/Src/led.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Core/Src/led.c.obj"
+  "/Users/deese/Documents/wbble/Core/Src/log.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Core/Src/log.c.obj"
   "/Users/deese/Documents/wbble/Core/Src/main.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Core/Src/main.c.obj"
   "/Users/deese/Documents/wbble/Core/Src/stm32wbxx_hal_msp.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_hal_msp.c.obj"
   "/Users/deese/Documents/wbble/Core/Src/stm32wbxx_it.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Core/Src/stm32wbxx_it.c.obj"
@@ -45,8 +46,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c.obj"
-  "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c.obj"
-  "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c.obj"
@@ -55,7 +54,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c.obj"
   "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.obj"
-  "/Users/deese/Documents/wbble/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c" "/Users/deese/Documents/wbble/cmake-build-debug/CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
