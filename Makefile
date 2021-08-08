@@ -77,8 +77,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/deese/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/homebrew/Cellar/cmake/3.21.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -905,6 +905,558 @@ Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c.s
 
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.obj: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.i: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.s: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c.s
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.obj: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.i: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.s: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c.s
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.obj: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.i: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.s: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c.s
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.obj: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.i: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.s: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c.s
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.obj: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.i: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.s: Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c.s
+
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.obj: Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.i: Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.i
+
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.s: Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/core/template/osal.c.s
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.obj: Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.i: Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.i
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.s: Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c.s
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.obj: Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.obj
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.i: Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.i
+
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.s: Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c.s
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.obj: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.obj
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.i: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.i
+
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.s: Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c.s
+
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.obj: Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.obj
+
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.i: Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.i
+
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.s: Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c.s
+
+Middlewares/ST/STM32_WPAN/utilities/otp.obj: Middlewares/ST/STM32_WPAN/utilities/otp.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/utilities/otp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/otp.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.c.obj
+
+Middlewares/ST/STM32_WPAN/utilities/otp.i: Middlewares/ST/STM32_WPAN/utilities/otp.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/utilities/otp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/otp.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.c.i
+
+Middlewares/ST/STM32_WPAN/utilities/otp.s: Middlewares/ST/STM32_WPAN/utilities/otp.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/utilities/otp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/otp.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/otp.c.s
+
+Middlewares/ST/STM32_WPAN/utilities/stm_list.obj: Middlewares/ST/STM32_WPAN/utilities/stm_list.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/utilities/stm_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_list.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.c.obj
+
+Middlewares/ST/STM32_WPAN/utilities/stm_list.i: Middlewares/ST/STM32_WPAN/utilities/stm_list.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/utilities/stm_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_list.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.c.i
+
+Middlewares/ST/STM32_WPAN/utilities/stm_list.s: Middlewares/ST/STM32_WPAN/utilities/stm_list.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/utilities/stm_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_list.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_list.c.s
+
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.obj: Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.obj
+
+# target to build an object file
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.obj
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.obj
+
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.i: Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.i
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.i
+
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.s: Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.s
+.PHONY : Middlewares/ST/STM32_WPAN/utilities/stm_queue.c.s
+
+STM32_WPAN/App/app_ble.obj: STM32_WPAN/App/app_ble.c.obj
+.PHONY : STM32_WPAN/App/app_ble.obj
+
+# target to build an object file
+STM32_WPAN/App/app_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/app_ble.c.obj
+.PHONY : STM32_WPAN/App/app_ble.c.obj
+
+STM32_WPAN/App/app_ble.i: STM32_WPAN/App/app_ble.c.i
+.PHONY : STM32_WPAN/App/app_ble.i
+
+# target to preprocess a source file
+STM32_WPAN/App/app_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/app_ble.c.i
+.PHONY : STM32_WPAN/App/app_ble.c.i
+
+STM32_WPAN/App/app_ble.s: STM32_WPAN/App/app_ble.c.s
+.PHONY : STM32_WPAN/App/app_ble.s
+
+# target to generate assembly for a file
+STM32_WPAN/App/app_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/app_ble.c.s
+.PHONY : STM32_WPAN/App/app_ble.c.s
+
+STM32_WPAN/App/p2p_server_app.obj: STM32_WPAN/App/p2p_server_app.c.obj
+.PHONY : STM32_WPAN/App/p2p_server_app.obj
+
+# target to build an object file
+STM32_WPAN/App/p2p_server_app.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/p2p_server_app.c.obj
+.PHONY : STM32_WPAN/App/p2p_server_app.c.obj
+
+STM32_WPAN/App/p2p_server_app.i: STM32_WPAN/App/p2p_server_app.c.i
+.PHONY : STM32_WPAN/App/p2p_server_app.i
+
+# target to preprocess a source file
+STM32_WPAN/App/p2p_server_app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/p2p_server_app.c.i
+.PHONY : STM32_WPAN/App/p2p_server_app.c.i
+
+STM32_WPAN/App/p2p_server_app.s: STM32_WPAN/App/p2p_server_app.c.s
+.PHONY : STM32_WPAN/App/p2p_server_app.s
+
+# target to generate assembly for a file
+STM32_WPAN/App/p2p_server_app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/App/p2p_server_app.c.s
+.PHONY : STM32_WPAN/App/p2p_server_app.c.s
+
+STM32_WPAN/Target/hw_ipcc.obj: STM32_WPAN/Target/hw_ipcc.c.obj
+.PHONY : STM32_WPAN/Target/hw_ipcc.obj
+
+# target to build an object file
+STM32_WPAN/Target/hw_ipcc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/Target/hw_ipcc.c.obj
+.PHONY : STM32_WPAN/Target/hw_ipcc.c.obj
+
+STM32_WPAN/Target/hw_ipcc.i: STM32_WPAN/Target/hw_ipcc.c.i
+.PHONY : STM32_WPAN/Target/hw_ipcc.i
+
+# target to preprocess a source file
+STM32_WPAN/Target/hw_ipcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/Target/hw_ipcc.c.i
+.PHONY : STM32_WPAN/Target/hw_ipcc.c.i
+
+STM32_WPAN/Target/hw_ipcc.s: STM32_WPAN/Target/hw_ipcc.c.s
+.PHONY : STM32_WPAN/Target/hw_ipcc.s
+
+# target to generate assembly for a file
+STM32_WPAN/Target/hw_ipcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/STM32_WPAN/Target/hw_ipcc.c.s
+.PHONY : STM32_WPAN/Target/hw_ipcc.c.s
+
+Utilities/lpm/tiny_lpm/stm32_lpm.obj: Utilities/lpm/tiny_lpm/stm32_lpm.c.obj
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.obj
+
+# target to build an object file
+Utilities/lpm/tiny_lpm/stm32_lpm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/lpm/tiny_lpm/stm32_lpm.c.obj
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.c.obj
+
+Utilities/lpm/tiny_lpm/stm32_lpm.i: Utilities/lpm/tiny_lpm/stm32_lpm.c.i
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.i
+
+# target to preprocess a source file
+Utilities/lpm/tiny_lpm/stm32_lpm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/lpm/tiny_lpm/stm32_lpm.c.i
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.c.i
+
+Utilities/lpm/tiny_lpm/stm32_lpm.s: Utilities/lpm/tiny_lpm/stm32_lpm.c.s
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.s
+
+# target to generate assembly for a file
+Utilities/lpm/tiny_lpm/stm32_lpm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/lpm/tiny_lpm/stm32_lpm.c.s
+.PHONY : Utilities/lpm/tiny_lpm/stm32_lpm.c.s
+
+Utilities/sequencer/stm32_seq.obj: Utilities/sequencer/stm32_seq.c.obj
+.PHONY : Utilities/sequencer/stm32_seq.obj
+
+# target to build an object file
+Utilities/sequencer/stm32_seq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/sequencer/stm32_seq.c.obj
+.PHONY : Utilities/sequencer/stm32_seq.c.obj
+
+Utilities/sequencer/stm32_seq.i: Utilities/sequencer/stm32_seq.c.i
+.PHONY : Utilities/sequencer/stm32_seq.i
+
+# target to preprocess a source file
+Utilities/sequencer/stm32_seq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/sequencer/stm32_seq.c.i
+.PHONY : Utilities/sequencer/stm32_seq.c.i
+
+Utilities/sequencer/stm32_seq.s: Utilities/sequencer/stm32_seq.c.s
+.PHONY : Utilities/sequencer/stm32_seq.s
+
+# target to generate assembly for a file
+Utilities/sequencer/stm32_seq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wbble.elf.dir/build.make CMakeFiles/wbble.elf.dir/Utilities/sequencer/stm32_seq.c.s
+.PHONY : Utilities/sequencer/stm32_seq.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1011,6 +1563,75 @@ help:
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.obj"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.i"
 	@echo "... Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/template/osal.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/template/osal.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/core/template/osal.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.s"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.i"
+	@echo "... Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.s"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.i"
+	@echo "... Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.s"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/dbg_trace.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/dbg_trace.i"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/dbg_trace.s"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/otp.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/otp.i"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/otp.s"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_list.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_list.i"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_list.s"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_queue.obj"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_queue.i"
+	@echo "... Middlewares/ST/STM32_WPAN/utilities/stm_queue.s"
+	@echo "... STM32_WPAN/App/app_ble.obj"
+	@echo "... STM32_WPAN/App/app_ble.i"
+	@echo "... STM32_WPAN/App/app_ble.s"
+	@echo "... STM32_WPAN/App/p2p_server_app.obj"
+	@echo "... STM32_WPAN/App/p2p_server_app.i"
+	@echo "... STM32_WPAN/App/p2p_server_app.s"
+	@echo "... STM32_WPAN/Target/hw_ipcc.obj"
+	@echo "... STM32_WPAN/Target/hw_ipcc.i"
+	@echo "... STM32_WPAN/Target/hw_ipcc.s"
+	@echo "... Utilities/lpm/tiny_lpm/stm32_lpm.obj"
+	@echo "... Utilities/lpm/tiny_lpm/stm32_lpm.i"
+	@echo "... Utilities/lpm/tiny_lpm/stm32_lpm.s"
+	@echo "... Utilities/sequencer/stm32_seq.obj"
+	@echo "... Utilities/sequencer/stm32_seq.i"
+	@echo "... Utilities/sequencer/stm32_seq.s"
 .PHONY : help
 
 

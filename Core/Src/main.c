@@ -119,16 +119,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-        ToggleLed(BLUE);
-
-//        uart_log(LT_ERROR);
-
-    printf("HBello");
-
-//        uint8_t str[] = "Hello World!\r\n";
-//        HAL_UART_Transmit_DMA(&huart1, (uint8_t *) &str, sizeof(str) - 1);
-
-        HAL_Delay(1000);
+    UTIL_SEQ_Run( UTIL_SEQ_DEFAULT );
     }
   /* USER CODE END 3 */
 }

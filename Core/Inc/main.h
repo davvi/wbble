@@ -37,6 +37,7 @@ extern "C" {
 /* USER CODE BEGIN Includes */
 #include "led.h"
 #include "log.h"
+#include "stm32_seq.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
