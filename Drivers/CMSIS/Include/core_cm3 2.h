@@ -1,8 +1,8 @@
 /**************************************************************************//**
- * @file     core_sc300.h
- * @brief    CMSIS SC300 Core Peripheral Access Layer Header File
- * @version  V5.0.8
- * @date     31. May 2019
+ * @file     core_cm3.h
+ * @brief    CMSIS Cortex-M3 Core Peripheral Access Layer Header File
+ * @version  V5.1.0
+ * @date     13. March 2019
  ******************************************************************************/
 /*
  * Copyright (c) 2009-2019 Arm Limited. All rights reserved.
@@ -28,8 +28,8 @@
   #pragma clang system_header   /* treat file as system include file */
 #endif
 
-#ifndef __CORE_SC300_H_GENERIC
-#define __CORE_SC300_H_GENERIC
+#ifndef __CORE_CM3_H_GENERIC
+#define __CORE_CM3_H_GENERIC
 
 #include <stdint.h>
 
@@ -56,19 +56,19 @@
  *                 CMSIS definitions
  ******************************************************************************/
 /**
-  \ingroup SC3000
+  \ingroup Cortex_M3
   @{
  */
 
 #include "cmsis_version.h"
 
-/*  CMSIS SC300 definitions */
-#define __SC300_CMSIS_VERSION_MAIN  (__CM_CMSIS_VERSION_MAIN)                /*!< \deprecated [31:16] CMSIS HAL main version */
-#define __SC300_CMSIS_VERSION_SUB   (__CM_CMSIS_VERSION_SUB)                 /*!< \deprecated [15:0]  CMSIS HAL sub version */
-#define __SC300_CMSIS_VERSION       ((__SC300_CMSIS_VERSION_MAIN << 16U) | \
-                                      __SC300_CMSIS_VERSION_SUB           )  /*!< \deprecated CMSIS HAL version number */
+/*  CMSIS CM3 definitions */
+#define __CM3_CMSIS_VERSION_MAIN  (__CM_CMSIS_VERSION_MAIN)              /*!< \deprecated [31:16] CMSIS HAL main version */
+#define __CM3_CMSIS_VERSION_SUB   (__CM_CMSIS_VERSION_SUB)               /*!< \deprecated [15:0]  CMSIS HAL sub version */
+#define __CM3_CMSIS_VERSION       ((__CM3_CMSIS_VERSION_MAIN << 16U) | \
+                                    __CM3_CMSIS_VERSION_SUB           )  /*!< \deprecated CMSIS HAL version number */
 
-#define __CORTEX_SC                 (300U)                                   /*!< Cortex secure core */
+#define __CORTEX_M                (3U)                                   /*!< Cortex-M Core */
 
 /** __FPU_USED indicates whether an FPU is used or not.
     This core does not support an FPU at all
@@ -119,12 +119,12 @@
 }
 #endif
 
-#endif /* __CORE_SC300_H_GENERIC */
+#endif /* __CORE_CM3_H_GENERIC */
 
 #ifndef __CMSIS_GENERIC
 
-#ifndef __CORE_SC300_H_DEPENDANT
-#define __CORE_SC300_H_DEPENDANT
+#ifndef __CORE_CM3_H_DEPENDANT
+#define __CORE_CM3_H_DEPENDANT
 
 #ifdef __cplusplus
  extern "C" {
@@ -132,9 +132,9 @@
 
 /* check device defines and use defaults */
 #if defined __CHECK_DEVICE_DEFINES
-  #ifndef __SC300_REV
-    #define __SC300_REV               0x0000U
-    #warning "__SC300_REV not defined in device header file; using default!"
+  #ifndef __CM3_REV
+    #define __CM3_REV               0x0200U
+    #warning "__CM3_REV not defined in device header file; using default!"
   #endif
 
   #ifndef __MPU_PRESENT
@@ -174,7 +174,7 @@
 #define     __OM     volatile            /*! Defines 'write only' structure member permissions */
 #define     __IOM    volatile            /*! Defines 'read / write' structure member permissions */
 
-/*@} end of group SC300 */
+/*@} end of group Cortex_M3 */
 
 
 
@@ -394,8 +394,6 @@ typedef struct
   __IM  uint32_t ISAR[5U];               /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Register */
         uint32_t RESERVED0[5U];
   __IOM uint32_t CPACR;                  /*!< Offset: 0x088 (R/W)  Coprocessor Access Control Register */
-        uint32_t RESERVED1[129U];
-  __IOM uint32_t SFCR;                   /*!< Offset: 0x290 (R/W)  Security Features Control Register */
 } SCB_Type;
 
 /* SCB CPUID Register Definitions */
@@ -446,11 +444,16 @@ typedef struct
 #define SCB_ICSR_VECTACTIVE_Msk            (0x1FFUL /*<< SCB_ICSR_VECTACTIVE_Pos*/)       /*!< SCB ICSR: VECTACTIVE Mask */
 
 /* SCB Vector Table Offset Register Definitions */
+#if defined (__CM3_REV) && (__CM3_REV < 0x0201U)                   /* core r2p1 */
 #define SCB_VTOR_TBLBASE_Pos               29U                                            /*!< SCB VTOR: TBLBASE Position */
 #define SCB_VTOR_TBLBASE_Msk               (1UL << SCB_VTOR_TBLBASE_Pos)                  /*!< SCB VTOR: TBLBASE Mask */
 
 #define SCB_VTOR_TBLOFF_Pos                 7U                                            /*!< SCB VTOR: TBLOFF Position */
 #define SCB_VTOR_TBLOFF_Msk                (0x3FFFFFUL << SCB_VTOR_TBLOFF_Pos)            /*!< SCB VTOR: TBLOFF Mask */
+#else
+#define SCB_VTOR_TBLOFF_Pos                 7U                                            /*!< SCB VTOR: TBLOFF Position */
+#define SCB_VTOR_TBLOFF_Msk                (0x1FFFFFFUL << SCB_VTOR_TBLOFF_Pos)           /*!< SCB VTOR: TBLOFF Mask */
+#endif
 
 /* SCB Application Interrupt and Reset Control Register Definitions */
 #define SCB_AIRCR_VECTKEY_Pos              16U                                            /*!< SCB AIRCR: VECTKEY Position */
@@ -653,7 +656,11 @@ typedef struct
 {
         uint32_t RESERVED0[1U];
   __IM  uint32_t ICTR;                   /*!< Offset: 0x004 (R/ )  Interrupt Controller Type Register */
+#if defined (__CM3_REV) && (__CM3_REV >= 0x200U)
   __IOM uint32_t ACTLR;                  /*!< Offset: 0x008 (R/W)  Auxiliary Control Register */
+#else
+        uint32_t RESERVED1[1U];
+#endif
 } SCnSCB_Type;
 
 /* Interrupt Controller Type Register Definitions */
@@ -661,6 +668,13 @@ typedef struct
 #define SCnSCB_ICTR_INTLINESNUM_Msk        (0xFUL /*<< SCnSCB_ICTR_INTLINESNUM_Pos*/)  /*!< ICTR: INTLINESNUM Mask */
 
 /* Auxiliary Control Register Definitions */
+#if defined (__CM3_REV) && (__CM3_REV >= 0x200U)
+#define SCnSCB_ACTLR_DISOOFP_Pos            9U                                         /*!< ACTLR: DISOOFP Position */
+#define SCnSCB_ACTLR_DISOOFP_Msk           (1UL << SCnSCB_ACTLR_DISOOFP_Pos)           /*!< ACTLR: DISOOFP Mask */
+
+#define SCnSCB_ACTLR_DISFPCA_Pos            8U                                         /*!< ACTLR: DISFPCA Position */
+#define SCnSCB_ACTLR_DISFPCA_Msk           (1UL << SCnSCB_ACTLR_DISFPCA_Pos)           /*!< ACTLR: DISFPCA Mask */
+
 #define SCnSCB_ACTLR_DISFOLD_Pos            2U                                         /*!< ACTLR: DISFOLD Position */
 #define SCnSCB_ACTLR_DISFOLD_Msk           (1UL << SCnSCB_ACTLR_DISFOLD_Pos)           /*!< ACTLR: DISFOLD Mask */
 
@@ -669,6 +683,7 @@ typedef struct
 
 #define SCnSCB_ACTLR_DISMCYCINT_Pos         0U                                         /*!< ACTLR: DISMCYCINT Position */
 #define SCnSCB_ACTLR_DISMCYCINT_Msk        (1UL /*<< SCnSCB_ACTLR_DISMCYCINT_Pos*/)    /*!< ACTLR: DISMCYCINT Mask */
+#endif
 
 /*@} end of group CMSIS_SCnotSCB */
 
@@ -770,7 +785,7 @@ typedef struct
 
 /* ITM Trace Privilege Register Definitions */
 #define ITM_TPR_PRIVMASK_Pos                0U                                            /*!< ITM TPR: PRIVMASK Position */
-#define ITM_TPR_PRIVMASK_Msk               (0xFUL /*<< ITM_TPR_PRIVMASK_Pos*/)            /*!< ITM TPR: PRIVMASK Mask */
+#define ITM_TPR_PRIVMASK_Msk               (0xFFFFFFFFUL /*<< ITM_TPR_PRIVMASK_Pos*/)     /*!< ITM TPR: PRIVMASK Mask */
 
 /* ITM Trace Control Register Definitions */
 #define ITM_TCR_BUSY_Pos                   23U                                            /*!< ITM TCR: BUSY Position */
@@ -1147,6 +1162,8 @@ typedef struct
   __IOM uint32_t RASR_A3;                /*!< Offset: 0x028 (R/W)  MPU Alias 3 Region Attribute and Size Register */
 } MPU_Type;
 
+#define MPU_TYPE_RALIASES                  4U
+
 /* MPU Type Register Definitions */
 #define MPU_TYPE_IREGION_Pos               16U                                            /*!< MPU TYPE: IREGION Position */
 #define MPU_TYPE_IREGION_Msk               (0xFFUL << MPU_TYPE_IREGION_Pos)               /*!< MPU TYPE: IREGION Mask */
@@ -1426,7 +1443,7 @@ typedef struct
 
 #ifdef CMSIS_VECTAB_VIRTUAL
   #ifndef CMSIS_VECTAB_VIRTUAL_HEADER_FILE
-    #define CMSIS_VECTAB_VIRTUAL_HEADER_FILE "cmsis_vectab_virtual.h"
+   #define CMSIS_VECTAB_VIRTUAL_HEADER_FILE "cmsis_vectab_virtual.h"
   #endif
   #include CMSIS_VECTAB_VIRTUAL_HEADER_FILE
 #else
@@ -1461,7 +1478,7 @@ __STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
   reg_value &= ~((uint32_t)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk)); /* clear bits to change               */
   reg_value  =  (reg_value                                   |
                 ((uint32_t)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
-                (PriorityGroupTmp << SCB_AIRCR_PRIGROUP_Pos)  );              /* Insert write key and priority group */
+                (PriorityGroupTmp << SCB_AIRCR_PRIGROUP_Pos) );               /* Insert write key and priority group */
   SCB->AIRCR =  reg_value;
 }
 
@@ -1754,6 +1771,14 @@ __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
 
 /*@} end of CMSIS_Core_NVICFunctions */
 
+/* ##########################  MPU functions  #################################### */
+
+#if defined (__MPU_PRESENT) && (__MPU_PRESENT == 1U)
+
+#include "mpu_armv7.h"
+
+#endif
+
 
 /* ##########################  FPU functions  #################################### */
 /**
@@ -1907,6 +1932,6 @@ __STATIC_INLINE int32_t ITM_CheckChar (void)
 }
 #endif
 
-#endif /* __CORE_SC300_H_DEPENDANT */
+#endif /* __CORE_CM3_H_DEPENDANT */
 
 #endif /* __CMSIS_GENERIC */

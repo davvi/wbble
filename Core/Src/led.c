@@ -42,11 +42,11 @@ void ToggleLed(enum LED_COLOR color) {
 void LedTest() {
 
     ToggleRedLed();
-    HAL_Delay(100);
+    HAL_Delay(330);
     ToggleGreenLed();
-    HAL_Delay(100);
+    HAL_Delay(330);
     ToggleBlueLed();
-    HAL_Delay(100);
+    HAL_Delay(330);
 
     ToggleBlueLed();
     HAL_Delay(100);

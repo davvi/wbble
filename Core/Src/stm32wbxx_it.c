@@ -215,6 +215,20 @@ void USART1_IRQHandler(void)
 }
 
 /**
+  * @brief This function handles HSEM global interrupt.
+  */
+void HSEM_IRQHandler(void)
+{
+  /* USER CODE BEGIN HSEM_IRQn 0 */
+
+  /* USER CODE END HSEM_IRQn 0 */
+  HAL_HSEM_IRQHandler();
+  /* USER CODE BEGIN HSEM_IRQn 1 */
+
+  /* USER CODE END HSEM_IRQn 1 */
+}
+
+/**
   * @brief This function handles DMA2 channel4 global interrupt.
   */
 void DMA2_Channel4_IRQHandler(void)
@@ -229,6 +243,46 @@ void DMA2_Channel4_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+/**
 
+* @brief This function handles RTC wake-up interrupt through EXTI line 19.
+
+*/
+
+void RTC_WKUP_IRQHandler(void)
+
+{
+
+    HW_TS_RTC_Wakeup_Handler();
+
+}
+
+/**
+
+* @brief This function handles IPCC RX occupied interrupt.
+
+*/
+
+void IPCC_C1_RX_IRQHandler(void)
+
+{
+
+    HW_IPCC_Rx_Handler();
+
+}
+
+/**
+
+* @brief This function handles IPCC TX free interrupt.
+
+*/
+
+void IPCC_C1_TX_IRQHandler(void)
+
+{
+
+    HW_IPCC_Tx_Handler();
+
+}
 /* USER CODE END 1 */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

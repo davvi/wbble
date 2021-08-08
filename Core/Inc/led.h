@@ -1,6 +1,12 @@
 #include "stm32wbxx_hal.h"
 
+#ifndef LED_H
+#define LED_H
+
 enum LED_COLOR{RED, GREEN, BLUE, ALL};
+
+#endif
+
 
 void ToggleRedLed();
 
